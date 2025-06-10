@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Flexbox Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Flexbox Examples</h1>
+
+  <!-- Flex Direction -->
+  <section>
+    <h2>1. flex-direction: row</h2>
+    <div class="flex-container row">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>2. flex-direction: column</h2>
+    <div class="flex-container column">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+    </div>
+  </section>
+
+  <!-- Wrap -->
+  <section>
+    <h2>3. flex-wrap: wrap</h2>
+    <div class="flex-container wrap">
+      <div class="item wide">1</div>
+      <div class="item wide">2</div>
+      <div class="item wide">3</div>
+    </div>
+  </section>
+
+  <!-- Justify Content -->
+  <section>
+    <h2>4. justify-content: space-between</h2>
+    <div class="flex-container justify">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+    </div>
+  </section>
+
+  <!-- Align Items -->
+  <section>
+    <h2>5. align-items: center</h2>
+    <div class="flex-container align-items">
+      <div class="item tall">1</div>
+      <div class="item short">2</div>
+      <div class="item tall">3</div>
+    </div>
+  </section>
+
+  <!-- Align Content -->
+  <section>
+    <h2>6. align-content: space-around</h2>
+    <div class="flex-container align-content">
+      <div class="item">A</div>
+      <div class="item">B</div>
+      <div class="item">C</div>
+      <div class="item">D</div>
+      <div class="item">E</div>
+      <div class="item">F</div>
+    </div>
+  </section>
+
+  <!-- Flex Grow / Shrink / Basis -->
+  <section>
+    <h2>7. flex-grow / flex-shrink / flex-basis</h2>
+    <div class="flex-container grow">
+      <div class="item grow1">Grow 1</div>
+      <div class="item grow2">Grow 2</div>
+      <div class="item grow1">Grow 1</div>
+    </div>
+  </section>
+
+  <!-- Align Self -->
+  <section>
+    <h2>8. align-self</h2>
+    <div class="flex-container self">
+      <div class="item">1</div>
+      <div class="item self-end">2 (self-end)</div>
+      <div class="item">3</div>
+    </div>
+  </section>
+
+</body>
+</html>
